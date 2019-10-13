@@ -1,0 +1,104 @@
+body{
+	margin:0;
+}
+
+/*
+
+	navbar styles
+
+*/
+.navigation {
+	background-color: darkorange;
+	border-radius:5px;
+	display: flex;
+	border:0;
+	justify-content: space-around;
+	padding: 1em;
+	align-items: center;
+
+}
+
+/*
+
+	link styles
+
+*/
+.list--item a{
+	display: inline-block;
+	font-weight: 600;
+	color: white;
+	text-decoration: none;
+	font-family: arial;
+ }
+
+/*
+
+	list item :styles
+
+*/
+.list--item {
+
+	color:white;
+	list-style: none;
+	transition: .5s;
+
+ }
+
+.list--item:hover {
+
+	transition: .5s;
+	transform: scale(.9);
+	opacity: .7;
+ }
+
+
+ /*
+
+	Responsive to min 400px
+
+
+ */
+@media screen and (max-width: 400px){
+	
+	
+	/*
+		set animation with blur of page
+	*/
+	body{
+		margin: -16px  10px;
+		animation: blurs 1s .5s linear;
+	}
+	@keyframes blurs{
+		to{
+			background-color: transparent;
+			filter: blur(5px);
+		}
+	}
+
+	
+	/*
+		set navigation mobile
+	*/
+	.navigation {
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+	 }
+
+	 /*
+
+	 	set spacing to elemento
+
+	 */
+	 .list--item{
+	 	margin-bottom: 4px;
+	 	margin-top: 20px;
+	 }
+
+	 .list--item a {
+	 	letter-spacing: .8px;
+	 }
+
+}
