@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 
 	<!-- title of page -->
-	<title>System of routes</title>
+	<title>Static Gestor</title>
 
 	<!-- viewport mobile -->
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -45,7 +45,7 @@
 			<li class="list--item"><a href="#!/buscar">Buscar usuario</a></li>
 			<li class="list--item"><a href="#!/todos">Todos los usuarios</a></li>
 			<li class="list--item"><a href="#!/notification">Notification</a></li>
-			<li class="list--item"><a href="#!/delete">Remove</a></li>
+			<li class="list--item"><a href="#!/remover">Remover usuario</a></li>
 
 
 		</ul>

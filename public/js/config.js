@@ -41,8 +41,9 @@ path.config(function($routeProvider){
 	routing delete
 
 */
- 		.when("/delete", {
- 			templateUrl: "partials/delete.html"
+ 		.when("/remover", {
+ 			templateUrl: "partials/remover.html",
+ 			controller: "remover"
  		}) 
 
 
@@ -52,8 +53,7 @@ path.config(function($routeProvider){
 
 */
  		.when("/notification", {
- 			templateUrl: "partials/notification.html",
- 			controller: "notification"
+ 			templateUrl: "partials/notification.html"
  		}) 
 
 /*
@@ -95,6 +95,23 @@ path.controller("searchs", ["$scope", function($scope){
 path.controller("todos", ["$scope", function($scope){
 
 	$scope.all = ["Luis", "Fernando", "Miguel", "Daniel", "Jeremias", "Jonathan" , "Jonatan",
+		"Pilar", "Danna" , "Melvin", "Lucia" , "Teresa", "Brenda" ,"Frank", "Franco", "Berenice",
+		"Brandon", "Boli", "Pirulo", "Mateo", "Maria", "Rosa", "Ronnie", "Rainer", "Randy"
+	];
+
+}])
+
+
+
+
+/*
+
+	controller - remover
+
+*/
+path.controller("remover", ["$scope", function($scope){
+
+	$scope.rm = ["Luis", "Fernando", "Miguel", "Daniel", "Jeremias", "Jonathan" , "Jonatan",
 		"Pilar", "Danna" , "Melvin", "Lucia" , "Teresa", "Brenda" ,"Frank", "Franco", "Berenice",
 		"Brandon", "Boli", "Pirulo", "Mateo", "Maria", "Rosa", "Ronnie", "Rainer", "Randy"
 	];

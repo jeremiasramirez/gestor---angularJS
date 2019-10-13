@@ -1,0 +1,27 @@
+<h1 class="btn--yes large" >Eliminar</h1>
+<hr>
+
+<br>
+<br>
+<br>
+<!-- form -->
+
+<div>
+	<form action="" class="form">
+		<input type="text" class="medium" placeholder="Remover usuarios" ng-model="search">
+	</form>
+</div>
+
+
+ <!-- writing value in real-time -->
+<strong class="min" style="font-family: arial;color:red;font-size: 12px"> {{search | uppercase}}</strong>
+ 
+
+
+
+
+<!-- shows perfiles -->
+<div>
+	<p ng-repeat="remove in rm | filter:search" class="alert--chargin large">{{remove}} <a href="#" class="close">Eliminar X</a></p>
+</div>
+
