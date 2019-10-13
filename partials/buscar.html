@@ -1,0 +1,27 @@
+<h1 class="btn--rm large">Buscar usuarios</h1>
+
+
+<!-- form -->
+
+<div>
+	<form action="" class="form">
+		<input type="text" class="medium" placeholder="Buscar usuarios" ng-model="search">
+	</form>
+</div>
+
+
+<!-- blank lines -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<p class="btn--rm min"> {{search | uppercase}}</p>
+<hr>
+
+
+
+<!--  -->
+<div>
+	<p ng-repeat="usuario in persons | filter:search" class="alert--chargin medium">{{usuario}}</p>
+</div>

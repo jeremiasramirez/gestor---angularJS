@@ -42,8 +42,8 @@
 			
 			<!-- redirect to public/js/config.js -->
 			<li class="list--item"><a href="#!/home">Home</a></li>
-			<li class="list--item"><a href="#!/perfil">Perfil</a></li>
-			<li class="list--item"><a href="#!/config">Config</a></li>
+			<li class="list--item"><a href="#!/buscar">Buscar usuario</a></li>
+			<li class="list--item"><a href="#!/todos">Todos los usuarios</a></li>
 			<li class="list--item"><a href="#!/notification">Notification</a></li>
 			<li class="list--item"><a href="#!/delete">Remove</a></li>
 
