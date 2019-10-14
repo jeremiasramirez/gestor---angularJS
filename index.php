@@ -41,11 +41,29 @@
 
 			
 			<!-- redirect to public/js/config.js -->
-			<li class="list--item"><a href="#!/home">Home</a></li>
-			<li class="list--item"><a href="#!/buscar">Buscar</a></li>
-			<li class="list--item"><a href="#!/todos">Todos los usuarios</a></li>
-			<li class="list--item"><a href="#!/notification">Notification</a></li>
-			<li class="list--item"><a href="#!/remover">Remover usuario</a></li>
+			<li class="list--item">
+				<a href="#!/home">Home</a>
+			</li>
+
+
+			<li class="list--item">
+				<a href="#!/buscar">Buscar</a>
+			</li>
+
+
+			<li class="list--item">
+				<a href="#!/todos">Todos los usuarios</a>
+			</li>
+
+
+			<li class="list--item">
+				<a href="#!/notification">Notification</a>
+			</li>
+
+
+			<li class="list--item">
+				<a href="#!/remover">Remover usuario</a>
+			</li>
 
 
 		</ul>
