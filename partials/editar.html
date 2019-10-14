@@ -1,0 +1,27 @@
+<h1 class="btn--yes large">Editar usuarios</h1>
+
+
+<!-- form -->
+
+<div>
+	<form action="" class="form">
+		<input type="text" class="medium" placeholder="Buscar para editar" ng-model="search">
+	</form>
+</div>
+
+
+<!-- blank lines -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<p class="btn--yes min"> {{search | uppercase}}</p>
+<hr>
+
+
+
+<!-- shows perfiles -->
+<div>
+	<p ng-repeat="editar in edit | filter:search" class="alert--chargin medium">{{editar}}</p>
+</div>

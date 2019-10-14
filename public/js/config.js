@@ -27,6 +27,17 @@ path.config(function($routeProvider){
 
 /*
 
+	routing editar
+
+*/
+		.when("/editar",{
+			templateUrl: "partials/editar.html",
+			controller: "editar"
+		})	
+
+
+/*
+
 	routing config
 
 */
@@ -112,6 +123,22 @@ path.controller("todos", ["$scope", function($scope){
 path.controller("remover", ["$scope", function($scope){
 
 	$scope.rm = ["Luis", "Fernando", "Miguel", "Daniel", "Jeremias", "Jonathan" , "Jonatan",
+		"Pilar", "Danna" , "Melvin", "Lucia" , "Teresa", "Brenda" ,"Frank", "Franco", "Berenice",
+		"Brandon", "Boli", "Pirulo", "Mateo", "Maria", "Rosa", "Ronnie", "Rainer", "Randy"
+	];
+
+}])
+
+
+
+/*
+
+	controller - editar
+
+*/
+path.controller("editar", ["$scope", function($scope){
+
+	$scope.edit = ["Luis", "Fernando", "Miguel", "Daniel", "Jeremias", "Jonathan" , "Jonatan",
 		"Pilar", "Danna" , "Melvin", "Lucia" , "Teresa", "Brenda" ,"Frank", "Franco", "Berenice",
 		"Brandon", "Boli", "Pirulo", "Mateo", "Maria", "Rosa", "Ronnie", "Rainer", "Randy"
 	];

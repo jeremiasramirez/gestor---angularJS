@@ -52,17 +52,23 @@
 
 
 			<li class="list--item">
-				<a href="#!/todos">Todos los usuarios</a>
-			</li>
-
-
-			<li class="list--item">
 				<a href="#!/notification">Notification</a>
 			</li>
 
 
 			<li class="list--item">
-				<a href="#!/remover">Remover usuario</a>
+				<a href="#!/todos">Todos los usuarios</a>
+			</li>
+
+
+
+			<li class="list--item">
+				<a href="#!/remover">Eliminar</a>
+			</li>
+
+
+			<li class="list--item">
+				<a href="#!/editar">Editar</a>
 			</li>
 
 
