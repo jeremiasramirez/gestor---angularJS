@@ -15,6 +15,10 @@
 
 	<!-- library angularJS > routes -->
 	<script src="public/js/lib/angular.routes.js"></script>
+	
+
+	<!-- library my property -->
+	<script src="public/css/lib/jeremias-lib/jeremias-lib.js"></script>
 
 	<!-- main js -->
 	<script src="public/js/main.js"></script>

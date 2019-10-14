@@ -22,6 +22,43 @@
 
 
 <!-- shows perfiles -->
-<div>
-	<p ng-repeat="editar in edit | filter:search" class="alert--chargin medium">{{editar}}</p>
+<div class="container">
+	<label class="label" ng-repeat="editar in edit | filter:search" >
+		<input class="inputs"  style="" type="text"value="{{editar}}"> {{"Editar" | lowercase}}
+	</label>
 </div>
+
+
+
+<!-- style specific -->
+<style>
+
+
+	.container{
+
+		display: grid;
+		grid-auto-flow: row;
+		grid-template-columns: 300px 300px 300px 300px;
+		grid-template-rows:60px;
+
+	}
+	
+	
+	.label{
+
+		margin-left: 10px;
+		color: blue;
+		font-size: 12px;
+		font-family: arial;
+
+		}
+
+		.inputs{
+
+			text-align: center;
+			margin: 0 0 .5em 1em;
+			
+		}
+
+
+</style>
